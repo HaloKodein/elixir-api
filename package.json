@@ -1,0 +1,27 @@
+{
+  "name": "elixir-api",
+  "module": "./src/app.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun ./src/app.ts",
+    "start": "bun ./src/app.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@types/bcrypt": "^5.0.2",
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.7.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
+    "@prisma/client": "5.20.0",
+    "bcrypt": "^5.1.1",
+    "elysia": "^1.1.21",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.20.0"
+  }
+}
